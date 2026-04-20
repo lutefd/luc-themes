@@ -1,0 +1,33 @@
+# White — a crisp, high-contrast light theme with a paper feel.
+# Inspired by GitHub Light and classic print: warm-neutral ink on white,
+# confident blue accent, and restrained diff colors.
+inherits: light
+
+colors:
+  # Canvas
+  bg:         "#ffffff"   # pure white page
+  panel:      "#f6f8fa"   # faint gray for panels (shown where backgrounds are explicit)
+  panel_alt:  "#eaeef2"   # slightly deeper panel tone
+  line:       "#d0d7de"   # borders / dividers — visible but unobtrusive
+
+  # Interaction
+  accent:     "#0969da"   # primary blue — strong contrast on white, legible as bg too
+  accent_alt: "#8250df"   # secondary violet for variety (matches GitHub Light)
+
+  # Text
+  text:       "#1f2328"   # near-black ink, softer than #000 on a bright canvas
+  muted:      "#57606a"   # secondary text — still AA on white
+  subtle:     "#6e7781"   # tertiary / hints — readable but recedes
+
+  # Status
+  success:    "#1a7f37"   # deep green
+  warn:       "#9a6700"   # amber/ochre, readable on white (yellow alone is not)
+  blue:       "#0969da"
+  cyan:       "#1b7c83"   # darkened cyan so it doesn't wash out
+  error_text: "#cf222e"   # assertive red
+
+  # Diffs (need explicit bg contrast)
+  diff_add_bg: "#dafbe1"  # pale green wash
+  diff_add_fg: "#116329"  # deep green ink
+  diff_del_bg: "#ffebe9"  # pale red wash
+  diff_del_fg: "#82071e"  # deep red ink

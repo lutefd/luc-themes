@@ -1,0 +1,14 @@
+schema: luc.pkg/v1
+module: github.com/lutefd/luc-themes
+version: v0.1.0
+luc_version: ">=0.1.0"
+name: luc-themes
+description: A collection of themes for luc. Starts with "white", a crisp high-contrast light theme.
+license: MIT
+repository: https://github.com/lutefd/luc-themes
+keywords:
+  - theme
+  - themes
+  - light
+  - white
+
