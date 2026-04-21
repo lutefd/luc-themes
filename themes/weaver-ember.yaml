@@ -1,0 +1,31 @@
+inherits: dark
+colors:
+  # Canvas — very dark, faintly warm near-black so orange accents feel native
+  bg: "#1a110a"
+  panel: "#241810"
+  panel_alt: "#2e2016"
+  line: "#4a3322"
+
+  # Orange accents — primary interactive color, readable on bg
+  accent: "#ff8c42"
+  accent_alt: "#ffb070"
+
+  # Text — warm cream for body, high contrast against bg (~14:1)
+  text: "#f5e6d3"
+  muted: "#c9a37a"
+  subtle: "#8a6a4a"
+
+  # Status colors — picked to stay distinct from the orange accent
+  success: "#7fd17f"
+  warn: "#ffcc66"
+  error_text: "#ff6b6b"
+
+  # Cool accents kept muted and cooled so they read as "not orange"
+  blue: "#7eb6ff"
+  cyan: "#7ed4d4"
+
+  # Diffs — explicit backgrounds, tuned to stay readable and not collide with orange UI
+  diff_add_bg: "#1f3a1f"
+  diff_add_fg: "#b8e8b8"
+  diff_del_bg: "#3a1f1f"
+  diff_del_fg: "#f0b0b0"
